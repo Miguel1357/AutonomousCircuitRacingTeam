@@ -1,0 +1,10 @@
+def student_func(x):
+    # `x` is a string
+    # this function should return either `True` or `False`
+    
+    x = x.lower().replace(" ", "")
+    reversed_String = x[::-1]
+    if x == reversed_String:
+      return True
+    else:
+      return False
